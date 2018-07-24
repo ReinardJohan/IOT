@@ -1,7 +1,7 @@
 # Predicting Diabetes and Graph of Glucose
 This repository is made for showing prediction if a person is diabetic and to show the normal glucose level of that person through the source [ihealth.sepdek.net](https://ihealth.sepdek.net)
 
-######Group Members
+###### Group Members
 * [Evan Harsojo](https://github.com/evnhar828)
 * [Marselus Vinsens](https://github.com/mvinsens)
 * [Reinard Johan Fenriawan](https://github.com/ReinardJohan)
