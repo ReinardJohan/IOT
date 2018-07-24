@@ -43,7 +43,11 @@ We take some live sample and save them locally, then train the data to get the m
 ## Display
 in the display section, we make it into 2 kind of displays:
 1. plotting into graph that show the mean and the live data of the glucose level.
+![picture](https://github.com/ReinardJohan/diabetes-prediction/blob/master/img/graph.jpg)
+the blue line show the mean of the data received, the mean based on the data training
+
 2. pie chart showing the `TRUE` and `FALSE` which show if the person is diabetic or not by percentage.
+![picture](https://github.com/ReinardJohan/diabetes-prediction/blob/master/img/piechart.jpg)
 
 ## Disclaim
 All data are owned by their own user.
