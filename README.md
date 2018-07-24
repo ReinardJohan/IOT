@@ -1,10 +1,10 @@
 # Predicting Diabetes and Graph of Glucose
 This repository is made for showing prediction if a person is diabetic and to show the normal glucose level of that person through the source [ihealth.sepdek.net](https://ihealth.sepdek.net)
 
-Group Members
-* Evan Harsojo
-* Marselus Vinsens
-* Reinard Johan Fenriawan
+######Group Members
+* [Evan Harsojo](https://github.com/evnhar828)
+* [Marselus Vinsens](https://github.com/mvinsens)
+* [Reinard Johan Fenriawan](https://github.com/ReinardJohan)
 
 ## Preparation
 To use, you need to
@@ -22,7 +22,7 @@ be sure you are connected to internet and able to open
 [ihealth.sepdek.net](https://ihealth.sepdek.net)
 
 ## How To Run
-follow these steps to run this project:
+Follow these steps to run this project:
 1. Download the files on this repository
 2. Run `Rstudio` app
 3. Open `server.r` or `ui.r` and click `Run App`
@@ -35,9 +35,14 @@ the data taken live from [ihealth.sepdek.net](https://ihealth.sepdek.net)
 after the the data filtered, you can save it into csv, just print, or immediately use it into the `server.r`
 
 to determine if the person is diabetic, we use the information about diabetic person from [diabetesdaily](https://www.diabetesdaily.com/learn-about-diabetes/understanding-blood-sugars/is-my-blood-sugar-normal/)
+after we obtain the data previously from the source, we make it into R code, applying a fall off parameter by 5
 
 ## Data Training
+We take some live sample and save them locally then train the data to get the mean of blood sugar level. The mean we get from the data mined we use them as the normals for our live data, it will show us the fluctuation of the blood sugar level of the person live and this will provide us information about the logical number of their blood sugar level. We take the data from [ihealth.sepdek.net](https://ihealth.sepdek.net) for a duration of 120 second or 2 minutes that is taken every 2 second. To process the data gathered we tried to make 2 separate datas but instead of that we use the fixed data for the data trained and the live data feed for the testing data. To train the data first we need to change the datas type to character then to numeric, then we use R basic library for mean to get the average.
 
 ## Display
 
+
 ## Disclaim
+All data are owned by their own user.
+This project was made for academic purposes only.
