@@ -28,6 +28,9 @@ Follow these steps to run this project:
 3. Open `da.r` or `training.r` and click `Run App`, `da.r` plots the glycose level line chart alongside with the mean level displayed
 in shiny, while `training.r` performs data training and figure out if the glycose level is high enough to be considered diabetic.
 
+## Flowchart
+![picture](https://github.com/ReinardJohan/diabetes-prediction/blob/master/img/flowchart.jpg)
+
 ## Data Filtering and Data Collecting
 Data filter is using `subset` function:
 `temp[i,] <- data[13, ]$value`
