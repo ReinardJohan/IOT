@@ -50,6 +50,16 @@ the blue line show the mean of the data received, the mean based on the data tra
 2. pie chart showing the `TRUE` and `FALSE` which show if the person is diabetic or not by percentage.
 ![picture](https://github.com/ReinardJohan/diabetes-prediction/blob/master/img/piechart.jpg)
 
+## Notes
+The way we obtain live data from [ihealth.sepdek.net](https://ihealth.sepdek.net) is by recurring the function for taking data and immidiately call the data to the grahical.
+
+The lines in graph are separated into 2 different lines :
+1. Blue lines is obtained from the trained data (data collected randomly trough the time and was done statistical average). It's purpose    is for showing the fluctuation of the average / expected glucose level to be shown for normal.
+2. Green lines is obtained from live data from [ihealth.sepdek.net](https://ihealth.sepdek.net) and it will be showing new data every 
+   seconds.
+   
+The Pie chart was made to show the the chance of that person (owner of data) is having an abnormal glucose level that might affect his / her health. The pie chart is based on ratio of `TRUE` and `FALSE` from live data -/+ 5 </> from the mean of trained datas. This pie chart can be shown as a percentage of Normal vs. Abnormal blood sugar level.
+
 ## Disclaim
 All data are owned by their own user.
 This project mainly used for student project at UPH.
