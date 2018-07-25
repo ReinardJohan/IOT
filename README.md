@@ -25,7 +25,8 @@ be sure you are connected to the internet and are able to open
 Follow these steps to run this project:
 1. Download the necessary files on this repository
 2. Run `Rstudio` app
-3. Open `server.r` or `ui.r` and click `Run App`
+3. Open `da.r` or `training.r` and click `Run App`, `da.r` plots the glycose level line chart alongside with the mean level displayed
+in shiny, while `training.r` performs data training and figure out if the glycose level is high enough to be considered diabetic.
 
 ## Data Filtering and Data Collecting
 Data filter is using `subset` function:
